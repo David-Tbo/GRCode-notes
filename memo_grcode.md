@@ -8,7 +8,7 @@
 * **GCR / Registre de Conteneurs [L'Entrepôt] :** Une fois le conteneur Docker fabriqué via votre VSCode (GCRCode), l'étape d'entreprise consiste à envoyer (*push*) cette image Docker vers un registre centralisé (Google Container Registry ou similaire) pour qu'elle puisse être exécutée sur des serveurs de production.
 * **VSCode/GCRCode** est l'outil avec lequel vous pilotez l'ensemble du processus (du code jusqu'à la préparation de la livraison).
 
-Ces trois outils s'articulent logiquement : vous codez dans VSCode, vous emballez le tout avec Docker, et vous l'exposez au monde grâce à FastAPI.
+Ces outils s'articulent logiquement : vous codez dans VSCode, vous emballez le tout avec Docker, et vous l'exposez au monde grâce à FastAPI.
 
 
 Dans la majorité des environnements d'entreprise, **GCRCode** fait référence à la configuration interne VSCode / environnement de développement sécurisé de l'entreprise (souvent liée aux plateformes Cloud comme Google Cloud / GCR pour *Google Container Registry* ou des distributions VSCode d'entreprise préconfigurées).
